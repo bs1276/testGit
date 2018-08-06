@@ -21,7 +21,7 @@ public class LogAdvice {
 	public void printLog(JoinPoint jp){
 		String name = jp.getSignature().getName();
 		Object[] params = jp.getArgs();
-//		System.out.println(name + "() 메소드 실행, 파라미터 갯수 : " 
+//		System.out.printwdfsdfsdfln(name + "() 메소드 실행, 파라미터 갯수 : " 
 //																	+ params.length );
 		log.info(name + "() 메소드 실행, 파라미터 갯수 : " 
 																	+ params.length);
