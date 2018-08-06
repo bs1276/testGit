@@ -26,6 +26,7 @@ public class NoticeController {
 									String title){
 		System.out.println(no);
 		System.out.println(title);
+		//test
 		return "home";
 	}
 	@RequestMapping("paramTest1.do")
