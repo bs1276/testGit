@@ -19,6 +19,7 @@ public class HomeController {
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
 	/**
+	 * 새로운 작업을 완료 하였습니다. DOC 주석 작업
 	 */
 	@RequestMapping(value = "index.do", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
@@ -29,6 +30,8 @@ public class HomeController {
 		
 		//test git commit
 		//test 1
+		
+		//나는 이어서 작업을 하였습니다.!!!!!!!
 		return "index";
 	}
 }
