@@ -28,6 +28,9 @@ public class MemberController {
 	public String login(Member member, HttpSession session){
 		Member user = memberService.selectMember(member);
 		System.out.println(user);
+		System.out.println(user);
+		System.out.println(user);
+		System.out.println(user);
 		
 		if(user != null && user.getPassword().equals(member.getPassword())){
 			session.setAttribute("user", user);
