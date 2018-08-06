@@ -22,7 +22,8 @@ public class HomeController {
 	 */
 	@RequestMapping(value = "index.do", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		//testetwetrw
+		//test git commit
+		//test 1
 		return "index";
 	}
 }
