@@ -19,11 +19,10 @@ public class HomeController {
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
 	/**
-	 * Simply selects the home viewswerwerdfsdf to render by returning its name.
 	 */
 	@RequestMapping(value = "index.do", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		//test
+		//testetwetrw
 		return "index";
 	}
 }
